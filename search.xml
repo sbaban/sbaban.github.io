@@ -2294,6 +2294,8 @@
 <h2 id="数字键盘没反应">数字键盘没反应</h2>
 <p>filco 数字键盘 小键盘 在mac上没反应</p>
 <p>原因：mac开启了鼠标键，设置→关闭鼠标键就行</p>
+<h2 id="livp转jpgheic转jpg">livp转jpg，HEIC转jpg</h2>
+<p>iphone的livephoto上传到阿里云盘变成了livp格式，livp不知道怎么转jpg，只能在传的时候先复制一份静态图像HEIC格式<a href="https://www.5kplayer.com/iphone-manager/convert-live-photo-to-still.htm">参考此网站的method3</a>，再转为jpg格式(使用HEIC converter软件批量转换为jpg)</p>
 <h2 id="path">PATH</h2>
 <p>终端安装zsh后，mac会先激活</p>
 <figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">～/.zshrc中的环境变量</span><br></pre></td></tr></tbody></table></figure>
