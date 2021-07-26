@@ -32,7 +32,7 @@
 <meta property="og:description" content="正则表达式 sublime">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-04-30T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-05-13T11:17:21.491Z">
+<meta property="article:modified_time" content="2021-07-22T12:00:17.412Z">
 <meta property="article:author" content="阿斑">
 <meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
@@ -240,7 +240,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-05-13 19:17:21" itemprop="dateModified" datetime="2021-05-13T19:17:21+08:00">2021-05-13</time>
+                <time title="Modified: 2021-07-22 20:00:17" itemprop="dateModified" datetime="2021-07-22T20:00:17+08:00">2021-07-22</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -302,6 +302,10 @@
 <li><code>$</code>匹配输入字符串的结束位置</li>
 <li><code>+</code>匹配一个或多个</li>
 <li><code>*</code>匹配零个或多个</li>
+<li><code>?</code>问号代表前面的字符最多只可以出现一次（0次、或1次)
+<ul>
+<li>跟在*或者+后边用时，表示懒惰模式，最短匹配。常见的有<code>.*?</code>和<code>.+?</code></li>
+</ul></li>
 <li>若要匹配这些特殊字符用<code>\+</code>,<code>\*</code>,<code>\$</code></li>
 </ul>
 <p>匹配换行符 (linux/mac上是, windows 上是)</p>
